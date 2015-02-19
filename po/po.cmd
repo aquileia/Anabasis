@@ -1,11 +1,17 @@
 :: po.cmd : Generate the pot and po files for the specified domain
 
-:: requires the gettext tools in your PATH variable
-:: e.g. from https://github.com/vslavik/gettext-tools-windows
-
-:: preamble: don't spam stdout with commands, append to cfg_files
+:: preamble: don't spam stdout with commands, append to files
 @echo off
 setlocal enabledelayedexpansion
+
+:: gettext dependency
+where msginit >nul 2>nul
+if not !ERRORLEVEL!==0 (
+	echo gettext tools not found in PATH variable
+	echo get them from e.g.
+	echo https://github.com/vslavik/gettext-tools-windows
+	exit
+)
 
 :: my personal setup for the campaign Anabasis
 set domain=wesnoth-Anabasis
@@ -23,5 +29,7 @@ for %%G in (de,fr) do (
 		msginit --no-translator --input=%domain%.pot --output-file=%%G.po --locale=%%G
 	) else (
 		msgmerge --backup=none --previous -U %%G.po %domain%.pot
+		if not exist ../../translations/%%G/LC_MESSAGES/ mkdir ../../translations/%%G/LC_MESSAGES
+		msgfmt %%G.po --output-file=../../translations/%%G/LC_MESSAGES/%domain%.mo
 	)
 )
