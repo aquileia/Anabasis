@@ -62,6 +62,11 @@ msgstr ""
 msgid "author of the original Anabasis"
 msgstr ""
 
+#. [about]
+#: C:\GitHub\Anabasis\_main.cfg:45
+msgid "Artwork"
+msgstr ""
+
 #. [scenario]: id=01_Phyrrian_Victory
 #: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:5
 msgid "Phyrrian Victory"
@@ -244,11 +249,13 @@ msgstr "phalange"
 #. [resistance]: id=phalanx
 #: C:\GitHub\Anabasis\utils\abilities.cfg:36
 msgid ""
-"This drilled unit withstands 10% more damage when lined up in battle "
-"formation, that is to say, adjacent to at least two allies."
+"This unit is trained in the phalanx battle formation, where adjacent units "
+"cover each other. It thus withstands 10% more damage when standing between "
+"two allies."
 msgstr ""
-"Cette unité encadrée résiste 10 % plus de dégâts quand elle reste an ligne "
-"avec leurs camarades, ça veut dire avoisinante avec deux ou plus alliés."
+"Cette unité connaît l'ordre de bataille de la phalange, où les camerades "
+"avoisinantes se protègent mutuellement. Elle résiste 10 % plus de dégâts "
+"quand elle reste entre deux alliés."
 
 #. [part]
 #: C:\GitHub\Anabasis\utils\story_macros.cfg:8
