@@ -15,6 +15,7 @@ if not !ERRORLEVEL!==0 (
 
 :: my personal setup for the campaign Anabasis
 set domain=wesnoth-Anabasis
+set languages=de,fr
 set gettext_path=C:/GitHub/wesnoth/utils/wmlxgettext
 
 if not "%1"=="" set domain=%1
@@ -24,7 +25,7 @@ for /f %%G in ('dir /b /s *.lua') do set files=!files! %%G
 if not exist po/%domain%/ mkdir po/%domain%
 perl %gettext_path% --domain=%domain% %files% > po/%domain%/%domain%.pot
 cd po/%domain%
-for %%G in (de,fr) do (
+for %%G in (%languages%) do (
 	if not exist %%G.po (
 		msginit --no-translator --input=%domain%.pot --output-file=%%G.po --locale=%%G
 	) else (
