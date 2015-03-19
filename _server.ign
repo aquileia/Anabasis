@@ -1,0 +1,26 @@
+# git files & hidden files
+.*
+.*/
+LICENSE
+README.md
+ 
+# OS generated files
+.DS_Store
+Thumbs.db
+__MACOSX/
+ 
+# swap files
+*.swp
+*~
+ 
+# wesnoth interna
+*.pbl
+*.ign
+_info.cfg
+*.map.cfg
+ 
+# translations: source files
+po/
+*.po
+ 
+development/

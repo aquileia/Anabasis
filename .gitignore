@@ -1,8 +1,13 @@
 # OS created files
 .DS_Store
 [Tt]humbs.db
+__MACOSX/
 
 # extensions
 *.sw[po]
 *.pbl
 *~
+
+# translations: compiled files
+translations/
+*.mo
