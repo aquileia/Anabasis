@@ -67,119 +67,119 @@ msgstr ""
 msgid "Artwork"
 msgstr ""
 
-#. [scenario]: id=01_Phyrrian_Victory
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:5
-msgid "Phyrrian Victory"
+#. [scenario]: id=01_Pyrrhic_Victory
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:5
+msgid "Pyrrhic Victory"
 msgstr ""
 
 #. [side]: type=Khalid, id=Clearchus
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:34
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:34
 msgid "Khalifate"
 msgstr ""
 
 #. [side]: type=Khalid, id=Clearchus
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:37
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:37
 msgid "Clearchus"
 msgstr ""
 
 #. [side]: type=Sergeant, id=Eldred
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:54
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:59
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:54
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:59
 msgid "Eldred"
 msgstr ""
 
 #. [side]: type=Elder Mage, id=Delfador
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:78
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:83
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:78
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:83
 msgid "Delfador"
 msgstr ""
 
 #. [message]: speaker=Eldred
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:132
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:132
 msgid "Now is the time, men. Do not lose heart! Our victory is at hand."
 msgstr ""
 
 #. [message]: speaker=Eldred
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:160
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:160
 msgid ""
 "Delfador, you traitor! The throne is mine. Do not challenge me, or I will "
 "strike you down without hesitation."
 msgstr ""
 
 #. [message]: speaker=Delfador
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:174
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:174
 msgid ""
 "You are worthy of no throne. Lay down your arms and end this rebellion, or "
 "you will bring unnecessary bloodshed across the land."
 msgstr ""
 
 #. [message]: speaker=Eldred
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:178
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:178
 msgid ""
 "Shut up, old man! My mother was right- I cannot establish my reign until I "
 "destroy you personally. Today you will die!"
 msgstr ""
 
 #. [message]: speaker=Eldred
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:182
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:182
 msgid ""
 "Khalifate! Lead the charge and take control of the city. I will fight the "
 "mage."
 msgstr ""
 
 #. [message]: speaker=Clearchus
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:244
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:244
 msgid ""
 "Very well. Men, we must seize control of each of the towers of the city "
 "wall. Let us not disappoint our friend!"
 msgstr ""
 
 #. [objectives]
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:289
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:289
 msgid "Objectives:"
 msgstr ""
 
 #. [objective]: condition=win
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:291
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:291
 msgid ""
 "Simultaneously occupy all four towers of the city wall\n"
 "(marked with glowing runes)"
 msgstr ""
 
 #. [objective]: condition=lose
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:296
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:296
 msgid "Death of Clearchus"
 msgstr ""
 
 #. [message]: speaker=Clearchus
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:318
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:318
 msgid "Fight on, my brethren..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:335
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:335
 msgid "I've gotten control of this tower!"
 msgstr ""
 
 #. [message]: speaker=Clearchus
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:377
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:377
 msgid ""
 "We have secured the city wall. Victory is ours this day! Now what has become "
 "of Eldred?"
 msgstr ""
 
 #. [message]: speaker=Delfador
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:408
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:408
 msgid "Foolish boy! You are making a grave mistake."
 msgstr ""
 
 #. [message]: speaker=Eldred
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:412
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:412
 msgid "You will not stand in my way!"
 msgstr ""
 
 #. [message]: speaker=Delfador
-#: C:\GitHub\Anabasis\scenarios\01_Phyrrian_Victory.cfg:458
+#: C:\GitHub\Anabasis\scenarios\01_Pyrrhic_Victory.cfg:458
 msgid "Foolish boy..."
 msgstr ""
 
