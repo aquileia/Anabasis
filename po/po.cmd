@@ -8,14 +8,16 @@ for %%A in (.) do ( if %%~nxA==po cd .. )
 :: my personal setup for the campaign Anabasis
 set domain=wesnoth-Anabasis
 set languages=de,fr
-set WMLgettext="C:/GitHub/wesnoth/utils/wmlxgettext"
+set WMLgettext="C:\GitHub\wesnoth\utils\wmlxgettext"
+
+if not "%1"=="" set domain=%1
+if exist po\LINGUAS set /p languages= < po\LINGUAS
 
 Call :dependencies
 set dependency_check=!ERRORLEVEL!
 if  dependency_check==1 exit 1
 
 :: get a list of all .cfg and .lua files
-if not "%1"=="" set domain=%1
 for /f "delims=" %%G in ('dir /b /s *.cfg') do set files=!files! "%%G"
 for /f "delims=" %%G in ('dir /b /s *.lua') do set files=!files! "%%G"
 
